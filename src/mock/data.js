@@ -9,18 +9,20 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hi! I am',
+  title: "Welcome! I'm",
   name: 'Shakeel Khan',
-  subtitle: 'I am a software engineer.',
+  subtitle: ' software engineer.',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'Shak.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    "Hello! My name is Mohammed but I go by Shakeel. I enjoy creating products and experiences that are enjoyed by many people! My interest in development started when I used to mod video games on the xbox 360. Turns out that playing video games wasn't a waste of time!",
+  paragraphTwo:
+    "Nowadays I work at a start-up called iMovR where I created and lead the software engineering team. My main focus is to develop accessible, inclusive, and safe products for iMovRs' clients.",
+  paragraphThree: 'o/',
   resume: 'https://skhan16.github.io/Resume/', // if no resume, the button will not show up
 };
 
@@ -30,28 +32,31 @@ export const projectsData = [
     id: nanoid(),
     img: 'iphone-11-Control-Page.png',
     title: 'iMovR desk controller app',
-    info: '',
+    info:
+      'Designed and developed an iOS app that uses a custom built API that controls iMovR products via bluetooth. ',
     info2: '',
-    url: '',
+    url: 'https://apps.apple.com/us/app/imovr-ergodynamics/id1561075469',
     repo: 'https://github.com/sKhan16/iMovRSwift', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'blyp-poster.jpg',
+    title: 'Blyp',
+    info:
+      'Developed a mobile social media app that allowed users to curate their digital footprint after they passed away.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/sKhan16/Blyp', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'UWFgc.jpg',
+    title: 'UW Fighting Game Club',
+    info: "Was a part of the founding of UW's first fighting game club. ",
+    info2:
+      'We hosted tournaments for various fighting games both in person and online to foster a positive community at UW.',
+    url: 'https://www.facebook.com/fgc.wga/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
