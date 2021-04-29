@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'Shak.jpg',
   paragraphOne:
-    "Hello! My name is Mohammed but I go by Shakeel. I enjoy creating products and experiences that are enjoyed by many people! My interest in development started when I used to mod video games on the xbox 360. Turns out that playing video games wasn't a waste of time!",
+    "Hello! My name is Mohammed but I go by Shakeel. I enjoy creating products and experiences that are enjoyed by many people! My interest in development started when I used to mod video games on the Xbox 360. Turns out that playing video games wasn't a waste of time!",
   paragraphTwo:
     "Nowadays I work at a start-up called iMovR where I created and lead the software engineering team. My main focus is to develop accessible, inclusive, and safe products for iMovRs' clients.",
   paragraphThree: 'o/',
